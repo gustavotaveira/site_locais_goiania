@@ -1,0 +1,71 @@
+body {
+	background-color: wheat;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	line-height: 1.6;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container h1 a{
+	text-decoration: none;
+	color: darkgreen;
+}
+
+.container h1 a:hover{
+	color: white;
+	background-color: darkgreen;
+}
+
+.places{
+	float: left;
+	width: 660px;
+}
+
+.place{
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid darkgreen;
+}
+
+.place h2{
+	margin: 0;
+}
+
+img {
+	margin: 10px 10px 0 0;
+	border: 1px solid darkgreen;
+	padding: 2px;
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+
+.sidenote{
+	border: 1px solid darkgreen;
+	background-color: #ffffcc;
+	padding: 10px;
+	float: right;
+	width: 260px;
+}
+
+.sidenote h3{
+	margin: 0;
+}
+
+.sidenote ol{
+	font-size: 12px;
+}
+
+.footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}
+
